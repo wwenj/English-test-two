@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web课题测验</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div id="app">
+
+    <!--html背景两图片-->
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <!--内容-->
+    <div class="main">
+        <div class="header"><img src="./image/preview_logo.png" alt=""></div>
+        <!--中心主体-->
+        <div class="concent">
+            <!--开始首页-->
+            <div class="question-item" :class="{hide:startShow}">
+                <div class="bg-concent-left"></div>
+                <div class="bg-concent-right"></div>
+                <p class="lesson first-title">Lesson57</p>
+                <p class="preview first-title">Preview &nbsp&nbsp&nbsp Practice</p>
+                <p class="first-btn" @click="starBtn"></p>
+            </div>
+            <!--开始做题-->
+            <div class="question-item" v-for="(item, index) in questionList" :class="{hide:contentShow}" v-if="item.data.id==listsId">
+                <!--试题上方标题与页数-->
+                <p v-for="(qType, index) in question_type" v-if="index==item.type" class="conTitle"  >
+                    <span class="conTitle1">{{qType.en}}</span>
+                    <span class="conTitle2">{{+item.data.id-1856}}/{{ questionList.length }}</span>
+                </p>
+                <!--上方播放按钮-->
+                <p class="playTop" @click="playChage"></p>
+                <p v-if="item.data.stem.audio">
+                    <audio :src=item.data.stem.audio></audio>
+                </p>
+                <!--中间图片或选项或文字-->
+                <p v-if="item.data.stem.picture" class="picCon">
+                    <img :src="item.data.stem.picture" alt="">
+                </p>
+                <p v-if="item.data.stem.sentence" class="textCon">{{item.data.stem.sentence}}</p>
+                <!--左右按钮-->
+                <div class="botBtn">
+                    <span class="prve" @click="prveClick"></span>
+                    <span class="next" @click="nextClick"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

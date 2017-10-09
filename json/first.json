@@ -1,0 +1,507 @@
+{
+  "status": true,
+  "result": {
+    "lists": [
+      {
+        "type": 1,
+        "data": {
+          "id": "1857",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.png",
+            "sentence": "doctor",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1858",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.png",
+            "sentence": "teacher",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1859",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.png",
+            "sentence": "astronaut",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1860",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.png",
+            "sentence": "firefighter",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1861",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.png",
+            "sentence": "police officer",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1862",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.png",
+            "sentence": "artist",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 1,
+        "data": {
+          "id": "1863",
+          "title": "\u9884\u89c8\u9898\u578b",
+          "title_type": "0",
+          "config": null,
+          "stem": {
+            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.png",
+            "sentence": "vet",
+            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
+          },
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1864",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1865",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "2",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1866",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "3",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1867",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "3",
+          "answer": "4",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1868",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "3",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1869",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "2",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1870",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3",
+          "title_type": "3",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
+            }
+          ],
+          "stem_type": "3",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1871",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "1",
+          "answer": "4",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1872",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/14.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "1",
+          "answer": "4",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1873",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png"
+            }
+          ],
+          "stem_type": "1",
+          "answer": "3",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1874",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png"
+            }
+          ],
+          "stem_type": "1",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1875",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
+            }
+          ],
+          "stem_type": "1",
+          "answer": "2",
+          "user_result": []
+        }
+      },
+      {
+        "type": 2,
+        "data": {
+          "id": "1876",
+          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.png",
+          "title_type": "1",
+          "config": null,
+          "stem": [
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/14.png",
+              "istrue": 1
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
+            },
+            {
+              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
+            }
+          ],
+          "stem_type": "1",
+          "answer": "2",
+          "user_result": []
+        }
+      }
+    ],
+    "question_type": {
+      "1": {
+        "en": "Vocabulary Preview",
+        "ch": "\u9884\u89c8"
+      },
+      "2": {
+        "en": "Listen and Choose ",
+        "ch": "\u542c\u5e76\u9009"
+      },
+      "3": {
+        "en": "Read and Choose",
+        "ch": "\u8bfb\u5e76\u9009"
+      },
+      "4": {
+        "en": "True or False ",
+        "ch": "\u5224\u65ad"
+      },
+      "5": {
+        "en": "Spelling",
+        "ch": "\u5355\u8bcd\u62fc\u5199"
+      },
+      "6": {
+        "en": "Complete the sentences",
+        "ch": "\u5b8c\u6210\u53e5\u5b50"
+      },
+      "7": {
+        "en": "Reading Comprehension",
+        "ch": "\u9605\u8bfb\u7406\u89e3"
+      }
+    }
+  }
+}
