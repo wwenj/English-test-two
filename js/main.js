@@ -2,11 +2,11 @@ $(function(){
     var app=new Vue({
 		el:"#app",
 		data:{
-            startShow:false,    //初始第一页的显示
-            contentShow:true,   //做题内容页的显示
+            startShow:true,    //初始第一页的显示
+            contentShow:false,   //做题内容页的显示
             questionList:[],     //lists对象数组
             question_type:[],     //问题种类type的标题
-            listsId:1857          //显示id页码
+            listsId:1864         //显示id页码
 		},
         mounted:function(){
 			this.getQuestionList();
@@ -15,6 +15,7 @@ $(function(){
             getQuestionList:function(){
             	$.ajax({
                     url: "http://test.zhituteam.com/index.php/home/api/getquestion",
+                    // url: "./json/first.json",
                     type: "get",
                     dataType: "json",
                     data:{
@@ -39,8 +40,8 @@ $(function(){
             },
             /*点击变换按钮外形*/
             playChage:function(){
-                $(".playTop").css("background-position","-326px -115px")
-                $("audio")[0].play();
+                $(".playTop").css("background-position","-326px -115px");
+                $("#audioTitle")[0].play();
             },
             prveClick:function(){
                 if (this.listsId==1857){

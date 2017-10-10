@@ -36,15 +36,27 @@
                     <span class="conTitle2">{{+item.data.id-1856}}/{{ questionList.length }}</span>
                 </p>
                 <!--上方播放按钮-->
-                <p class="playTop" @click="playChage"></p>
-                <p v-if="item.data.stem.audio">
-                    <audio :src=item.data.stem.audio></audio>
+                <div class="playTop" @click="playChage">
+                    <!--预习图片音频-->
+                    <p v-if="item.data.stem.audio">
+                    <audio :src=item.data.stem.audio id="audioTitle"></audio>
                 </p>
+                    <!--四选项音频-->
+                    <p v-if="item.data.title">
+                    <audio :src=item.data.title id="audioTitle"></audio>
+                </p>
+                </div>
                 <!--中间图片或选项或文字-->
                 <p v-if="item.data.stem.picture" class="picCon">
                     <img :src="item.data.stem.picture" alt="">
                 </p>
                 <p v-if="item.data.stem.sentence" class="textCon">{{item.data.stem.sentence}}</p>
+                <p v-if="!item.data.stem.picture" class="fourOptionBox">
+                    <span  v-for="(option,index) in item.data.stem" class="fourOption">
+                        <span class="fourOptionTitle">音频选项{{index}}</span>
+                        <span alt="" class="imgBtn" @click=""></span>
+                    </span>
+                </p>
                 <!--左右按钮-->
                 <div class="botBtn">
                     <span class="prve" @click="prveClick"></span>

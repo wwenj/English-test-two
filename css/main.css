@@ -67,6 +67,7 @@ body{
 .question-item{
     width: 100%;
     height:100%;
+    border:1px solid black;
 }
 .bg-concent-left{
     width:200px;
@@ -187,8 +188,45 @@ body{
     background-position: -239px -97px;
     cursor: pointer;
 }
-
-
+/*四选项*/
+.fourOptionBox{
+    width:100%;
+    height:150px;
+    display: flex;
+    border:1px solid black;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+}
+.fourOption{
+    display: inline-block;
+    float: left;
+    width:150px;
+    height:126px;
+    border:1px solid black;
+    line-height: 126px;
+    position: relative;
+}
+.fourOptionTitle{
+    width:100%;
+    font-size: 15px;
+    height:15px;
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: center;
+    line-height: 15px;
+}
+.imgBtn{
+    display: inline-block;
+    width:85px;
+    height:85px;
+    vertical-align: middle;
+    margin-left: 32px;
+    background-image: url(../image/spirit.png);
+    background-position: -326px -15px;
+    cursor: pointer;
+}
 
 
 
