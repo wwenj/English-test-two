@@ -6,7 +6,8 @@ $(function(){
             contentShow:false,   //做题内容页的显示
             questionList:[],     //lists对象数组
             question_type:[],     //问题种类type的标题
-            listsId:1864         //显示id页码
+            listsId:1864,         //显示id页码
+            annId:0                //当前选题做出的选项
 		},
         mounted:function(){
 			this.getQuestionList();
@@ -39,10 +40,20 @@ $(function(){
                 this.contentShow=false;
             },
             /*点击变换按钮外形*/
-            playChage:function(){
-                $(".playTop").css("background-position","-326px -115px");
-                $("#audioTitle")[0].play();
+            playChage:function(playId,audioId,index){   //点击节点，音频节点，当前点击的index
+                var playTop=$(playId);
+                var audioTitle=$(audioId);
+                playTop.eq(index).css("background-position","-326px -115px");   //代表点击图片
+                audioTitle[index].play();   ///播放
+                audioTitle.on('ended',function(e){   //播放完毕变回事件
+                    playTop.css("background-position","-326px -15px");
+                });
             },
+            fourOptionClick:function(index){
+                $('.fourOption').eq(index).css('border','1px solid #59ba77').siblings().css('border','1px solid rgba(255,255,255,0)')
+                this.annId=index;
+            },
+            /*点击左右*/
             prveClick:function(){
                 if (this.listsId==1857){
                     this.startShow=false;
@@ -52,7 +63,8 @@ $(function(){
                 }
             },
             nextClick:function(){
-                this.listsId+=1
+                this.listsId+=1;
+                alert(this.annId)
             }
 
 		}
