@@ -37,6 +37,7 @@
                 </p>
                 <!--上方播放按钮-->
                 <div class="playTop" @click="playChage('.playTop','.audioTitle',0)">
+                    <img :src="item.data.title" alt="" class="playTopPic" width="150" height="150">
                     <!--预习图片音频-->
                     <p v-if="item.data.stem.audio">
                     <audio :src=item.data.stem.audio class="audioTitle"></audio>
@@ -53,10 +54,11 @@
                 <p v-if="item.data.stem.sentence" class="textCon">{{item.data.stem.sentence}}</p>
                 <p v-if="!item.data.stem.picture" class="fourOptionBox">
                     <span  v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
-                        <span class="fourOptionTitle">音频选项{{index}}</span>
+                        <span v-if="" class="fourOptionTitle">音频选项{{index}}</span>
                         <span alt="" class="imgBtn" @click="playChage('.imgBtn','.audioContent',index)">
                              <audio :src=option.value class="audioContent"></audio>
                         </span>
+                        <img :src=option.value alt="" width="85" height="85" class="picContent">
                     </span>
                 </p>
                 <!--左右按钮-->

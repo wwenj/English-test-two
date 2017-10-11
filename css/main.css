@@ -55,7 +55,7 @@ body{
 /*内容*/
 .concent{
     width:820px;
-    height:450px;
+    height:524px;
     background-color: #fffcda;
     border-radius: 8px;
     position: absolute;
@@ -140,6 +140,15 @@ body{
     margin:auto;
     background-image: url(../image/spirit.png);
     background-position: -326px -15px;
+}
+/*上方title图片*/
+.playTopPic{
+    width:150px;
+    height:150px;
+    /*border:1px solid black;*/
+    margin-left:-32px;
+    margin-bottom: 50px;
+    background-color: #FFFCDA;
 }
 /*中间图片/选项/文字*/
 .picCon{
@@ -233,7 +242,11 @@ body{
     background-position: -326px -15px;
     cursor: pointer;
 }
-
+/*选项图片*/
+.picContent{
+    z-index: 100;
+    float: left;
+}
 
 
 

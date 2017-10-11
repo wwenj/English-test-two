@@ -6,8 +6,8 @@ $(function(){
             contentShow:false,   //做题内容页的显示
             questionList:[],     //lists对象数组
             question_type:[],     //问题种类type的标题
-            listsId:1864,         //显示id页码
-            annId:0                //当前选题做出的选项
+            listsId:1871,         //显示id页码
+            annId:-1                //当前选题做出的选项
 		},
         mounted:function(){
 			this.getQuestionList();
@@ -61,19 +61,51 @@ $(function(){
                     this.startShow=false;
                     this.contentShow=true;
                 }else{
-                    this.listsId-=1
+                    this.listsId-=1     //页码减一
                 }
             },
             nextClick:function(){
-                this.listsId+=1;    //页码加1
-                var inidexId=this.listsId-1858;     //当前题目页数，对应当前lists索引
-                if(this.questionList[inidexId].data.stem[this.annId].istrue==1){
-                    alert('正确')
+                var select; //本题是否作对
+
+                if(this.listsId>1863&&this.annId==-1){ //如果未选择
+                    alert('请选择一项');
+                }else if(this.listsId<1864){
+                    this.listsId+=1;    //页码加1
+                    select='ok';
+                    this.ajaxPost(this.listsId-1,select,0)
                 }else{
-                    alert('错误')
+                    this.listsId+=1;   //页码加1
+                    var inidexId=this.listsId-1858;   //当前题目页数，对应当前lists索引
+                    if(this.questionList[inidexId].data.stem[this.annId].istrue==1){
+                        // alert('正确');
+                        select='ok';
+                    }else{
+                        // alert('错误');
+                        select='error';
+                    }
+                    this.annId=-1;  //下一题后选项设为初始-1
+                    this.ajaxPost(this.listsId-1,select,1)
                 }
 
-
+            },
+            /*每次答完题提交结果信息的post请求*/
+            ajaxPost:function(id,select,selected){
+                $.ajax({
+                    url: "http://test.zhituteam.com/index.php/home/api/ajaxHandle",
+                    type: "post",
+                    dataType: "json",
+                    data:{
+                        id:id,
+                        select:select,
+                        selected:selected
+                    },
+                    success:function(){
+                        // alert('正确55');
+                    },
+                    error:function(){
+                        alert("POST数据提交错误！");
+                    }
+                })
             }
 
 		}
