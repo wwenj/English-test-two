@@ -11,7 +11,6 @@
 </head>
 <body>
 <div id="app">
-
     <!--html背景两图片-->
     <div class="bg-left"></div>
     <div class="bg-right"></div>
@@ -27,13 +26,6 @@
                 <p class="lesson first-title">Lesson57</p>
                 <p class="preview first-title">Preview &nbsp&nbsp&nbsp Practice</p>
                 <p class="first-btn" @click="starBtn"></p>
-            </div>
-            <!--结尾尾页-->
-            <div  class="ended" :class="{hide:endShow}">
-                <p class="correct">Correct{{finish.trueNum}}</p>
-                <p class="wrong">Wrong{{finish.wrongNum}}</p>
-                <p></p>
-                <p></p>
             </div>
             <!--开始做题-->
             <div class="question-item" v-for="(item, index) in questionList" :class="{hide:contentShow}" v-if="item.data.id==listsId">
@@ -79,6 +71,32 @@
                     <span class="prve" @click="prveClick"></span>
                     <span class="next" @click="nextClick"></span>
                 </div>
+            </div>
+            <!--结尾尾页-->
+            <div  class="ended" :class="{hide:endShow}">
+                <p class="correct">Correct: {{finish.trueNum}}</p>
+                <p class="wrong">Wrong: {{finish.wrongNum}}</p>
+                <div class="star-box">
+                    <p v-if="finish.star==1">
+                        <span class="star star-true"></span>
+                        <span class="star star-false"></span>
+                        <span class="star star-false"></span>
+                    </p>
+                    <p v-if="finish.star==2">
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                        <span class="star star-false"></span>
+                    </p>
+                    <p v-if="finish.star==3">
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                    </p>
+                </div>
+                <p class="btn-box">
+                    <span class="btn-end btn-again" @click="btnAgain"></span>
+                    <span class="btn-end btn-quit"></span>
+                </p>
             </div>
         </div>
     </div>

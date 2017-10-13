@@ -2,9 +2,9 @@ $(function(){
     var app=new Vue({
 		el:"#app",
 		data:{
-            startShow:true,    //初始第一页的显示
-            endShow:false,     //末尾页的显示
-            contentShow:false, //做题内容页的显示
+            startShow:false,    //初始第一页的显示
+            endShow:true,     //末尾页的显示
+            contentShow:true, //做题内容页的显示
             questionList:[],   //lists对象数组
             question_type:[],  //问题种类type的标题
             listsId:1876,      //显示id页码
@@ -42,6 +42,7 @@ $(function(){
             starBtn:function(){
                 this.startShow=true;  //初始页隐藏
                 this.contentShow=false; //做题也出现
+                this.listsId=1857;  //开始页码调整到第一页
             },
             /*点击变换按钮外形*/
             playChage:function(playId,audioId,index){   //点击节点，音频节点，当前点击的index
@@ -81,6 +82,9 @@ $(function(){
                         this.thatTrue();
                         this.ajaxPost(this.listsId-1,this.select,1);
                         this.finishget();
+
+                        this.endShow=false;//使末尾页出现
+                        this.contentShow=true;//做题页隐藏
                     } else{ //如果是有选择的部分
                         this.listsId+=1;    //页码加1
                         this.thatTrue();
@@ -136,6 +140,11 @@ $(function(){
                         alert("结束页请求错误");
                     }
                 })
+            },
+            /*再做一遍按钮*/
+            btnAgain:function(){
+                this.endShow=true;  //末尾页隐藏
+                this.startShow=false;  //初始页出现
             }
 
 		}

@@ -4,7 +4,7 @@ body{
     background: #59ba77;
     font-family: "Impact";
     color: #59ba77;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 /*清浮*/
 .clearfix::after {
@@ -54,13 +54,13 @@ body{
 }
 /*内容*/
 .concent{
-    width:820px;
+    width:780px;
     /*height:524px;*/
     background-color: #fffcda;
     border-radius: 8px;
     position: absolute;
     left: 50%;
-    top:100px;
+    top:90px;
     margin-left: -410px;
     z-index: 100;
     padding: 0 20px 70px 20px;
@@ -113,8 +113,7 @@ body{
 .conTitle{
     width:100%;
     height:60px;
-    padding:20px 0 20px 25px;
-    /*border:1px solid black;*/
+    padding:20px 0 20px 5px;
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -124,7 +123,7 @@ body{
     float: left;
 }
 .conTitle2{
-    width:50px;
+    width:60px;
     height:26px;
     background-color:#DBF7E4;
     font-size: 16px;
@@ -132,6 +131,7 @@ body{
     line-height: 27px;
     text-align: center;
     float: right;
+    margin-right: -20px;
 }
 /*上方开始播放按钮*/
 .playTop{
@@ -164,7 +164,7 @@ body{
 }
 .textCon{
     width:100%;
-    height:20px;
+    height:80px;
     line-height: 20px;
     text-align: center;
     font-size: 20px;
@@ -252,20 +252,68 @@ body{
     margin-top: -5px;
     margin-left: 10px;
 }
+/*尾页*/
 .ended{
     width: 100%;
     height:360px;
-    border:1px solid black;
+    /*border:1px solid black;*/
+    padding: 1px;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
+.correct{
+    width:100%;
+    height:20px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.wrong{
+    text-align: center;
+    margin-top: 30px;
+    color: #ff3737;
+    font-size: 20px;
+}
+.star-box{
+    width:100%;
+    height:72px;
+    margin-top:30px;
+    text-align: center;
+}
+.star{
+    width:80px;
+    height:70px;
+}
+.star-true{
+    display: inline-block;
+    background-image: url("../image/spirit.png");
+    background-position: -430px -14px;
+}
+.star-false{
+    display: inline-block;
+    background-image: url("../image/spirit.png");
+    background-position: -430px -108px;
+}
+.btn-box{
+    width:460px;
+    height:68px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+.btn-end{
+    display: inline-block;
+    width:212px;
+    height:66px;
+    background-image: url("../image/spirit.png");
+    cursor: pointer;
+}
+.btn-again{
+    background-position: -8px -109px;
+}
+.btn-quit{
+    background-position: -8px -203px;
+    margin-left:30px;
+}
 
 
 
