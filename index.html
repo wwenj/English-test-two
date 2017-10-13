@@ -29,9 +29,9 @@
                 <p class="first-btn" @click="starBtn"></p>
             </div>
             <!--结尾尾页-->
-            <div  class="ended">
-                <p></p>
-                <p></p>
+            <div  class="ended" :class="{hide:endShow}">
+                <p class="correct">Correct{{finish.trueNum}}</p>
+                <p class="wrong">Wrong{{finish.wrongNum}}</p>
                 <p></p>
                 <p></p>
             </div>
