@@ -28,6 +28,13 @@
                 <p class="preview first-title">Preview &nbsp&nbsp&nbsp Practice</p>
                 <p class="first-btn" @click="starBtn"></p>
             </div>
+            <!--结尾尾页-->
+            <div  class="ended">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
             <!--开始做题-->
             <div class="question-item" v-for="(item, index) in questionList" :class="{hide:contentShow}" v-if="item.data.id==listsId">
                 <!--试题上方标题与页数-->
@@ -38,11 +45,11 @@
                 <!--上方播放按钮-->
                 <div class="playTop" @click="playChage('.playTop','.audioTitle',0)">
                     <img :src="item.data.title" alt="" class="playTopPic" width="150" height="150">
-                    <!--预习图片音频-->
+                    <!--预习图片标题音频-->
                     <p v-if="item.data.stem.audio">
                     <audio :src=item.data.stem.audio class="audioTitle"></audio>
                 </p>
-                    <!--四选项音频-->
+                    <!--四选项标题音频-->
                     <p v-if="item.data.title">
                      <audio :src=item.data.title class="audioTitle"></audio>
                     </p>
@@ -52,13 +59,19 @@
                     <img :src="item.data.stem.picture" alt="">
                 </p>
                 <p v-if="item.data.stem.sentence" class="textCon">{{item.data.stem.sentence}}</p>
-                <p v-if="!item.data.stem.picture" class="fourOptionBox">
-                    <span  v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
-                        <span v-if="" class="fourOptionTitle">音频选项{{index}}</span>
-                        <span alt="" class="imgBtn" @click="playChage('.imgBtn','.audioContent',index)">
+                    <!--听力选项-->
+                <p v-if="!item.data.stem.picture&&item.data.id<1871" class="fourOptionBox">
+                    <span v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
+                        <span class="fourOptionTitle">音频选项{{index}}</span>
+                        <span class="imgBtn" @click="playChage('.imgBtn','.audioContent',index)">
                              <audio :src=option.value class="audioContent"></audio>
                         </span>
-                        <img :src=option.value alt="" width="85" height="85" class="picContent">
+                    </span>
+                </p>
+                    <!--图片选项-->
+                <p v-if="!item.data.stem.picture&&item.data.id>1870" class="fourOptionBox fourOptionPic">
+                    <span v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
+                        <img :src=option.value alt="" width="130" height="130" class="picContent">
                     </span>
                 </p>
                 <!--左右按钮-->

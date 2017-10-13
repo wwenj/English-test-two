@@ -55,7 +55,7 @@ body{
 /*内容*/
 .concent{
     width:820px;
-    height:524px;
+    /*height:524px;*/
     background-color: #fffcda;
     border-radius: 8px;
     position: absolute;
@@ -63,6 +63,7 @@ body{
     top:100px;
     margin-left: -410px;
     z-index: 100;
+    padding: 0 20px 70px 20px;
 }
 .question-item{
     width: 100%;
@@ -147,7 +148,6 @@ body{
     height:150px;
     /*border:1px solid black;*/
     margin-left:-32px;
-    margin-bottom: 50px;
     background-color: #FFFCDA;
 }
 /*中间图片/选项/文字*/
@@ -206,13 +206,14 @@ body{
     display: flex;
     justify-content:space-around;
     padding-top: 30px;
+    margin-bottom: 60px;
 }
 .fourOption{
     display: inline-block;
     float: left;
     width:150px;
     height:140px;
-    padding-top: 10px;
+    padding-top: 20px;
     border:1px solid rgba(255,255,255,0);
     line-height: 140px;
     position: relative;
@@ -227,7 +228,7 @@ body{
     font-size: 15px;
     height:15px;
     position: absolute;
-    top:20px;
+    bottom:127px;
     left: 0;
     text-align: center;
     line-height: 15px;
@@ -243,11 +244,20 @@ body{
     cursor: pointer;
 }
 /*选项图片*/
-.picContent{
-    z-index: 100;
-    float: left;
+.fourOptionPic{
+    margin-top: 65px;
+    margin-bottom: 70px;
 }
-
+.picContent{
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.ended{
+    width: 100%;
+    height:360px;
+    border:1px solid black;
+    margin-top: 20px;
+}
 
 
 

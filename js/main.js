@@ -6,7 +6,7 @@ $(function(){
             contentShow:false,   //做题内容页的显示
             questionList:[],     //lists对象数组
             question_type:[],     //问题种类type的标题
-            listsId:1871,         //显示id页码
+            listsId:1876,         //显示id页码
             annId:-1                //当前选题做出的选项
 		},
         mounted:function(){
@@ -15,8 +15,8 @@ $(function(){
         methods:{
             getQuestionList:function(){
             	$.ajax({
-                    // url: "http://test.zhituteam.com/index.php/home/api/getquestion",
-                    url: "./json/first.json",
+                    url: "http://test.zhituteam.com/index.php/home/api/getquestion",
+                    // url: "./json/first.json",
                     type: "get",
                     dataType: "json",
                     data:{
@@ -69,11 +69,13 @@ $(function(){
 
                 if(this.listsId>1863&&this.annId==-1){ //如果未选择
                     alert('请选择一项');
-                }else if(this.listsId<1864){
+                }else if(this.listsId<1864){ //如果是第一部分
                     this.listsId+=1;    //页码加1
                     select='ok';
                     this.ajaxPost(this.listsId-1,select,0)
-                }else{
+                }else if(this.listsId>=1876) {  //如果到了最后一页选题
+                    this.listsId+=1;
+                } else{
                     this.listsId+=1;   //页码加1
                     var inidexId=this.listsId-1858;   //当前题目页数，对应当前lists索引
                     if(this.questionList[inidexId].data.stem[this.annId].istrue==1){
@@ -86,8 +88,8 @@ $(function(){
                     this.annId=-1;  //下一题后选项设为初始-1
                     this.ajaxPost(this.listsId-1,select,1)
                 }
-
             },
+
             /*每次答完题提交结果信息的post请求*/
             ajaxPost:function(id,select,selected){
                 $.ajax({
