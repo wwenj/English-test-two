@@ -1,0 +1,1041 @@
+{
+  "status": true,
+  "result": {
+    "lists": [
+      {
+        "type": 4,
+        "data": {
+          "id": "13741",
+          "title": "Recycling is when paper and plastic have their own trash cans.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13742",
+          "title": "Pollution is healthy air.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True"
+            },
+            {
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13743",
+          "title": "The Earth is small.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True"
+            },
+            {
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13744",
+          "title": "Green energy is energy that doesn't cause pollution.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13745",
+          "title": "Metal is soft and cheap.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True"
+            },
+            {
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13746",
+          "title": "Plastic is soft and cheap.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13747",
+          "title": "Wood is made from trees.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13748",
+          "title": "Metal is used to make cars.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13749",
+          "title": "rec*cling",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "y"
+            }
+          },
+          "stem": [
+            {
+              "value": "a"
+            },
+            {
+              "value": "y",
+              "istrue": 1
+            },
+            {
+              "value": "o"
+            },
+            {
+              "value": "i"
+            },
+            {
+              "value": "u"
+            },
+            {
+              "value": "ee"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "2",
+          "user_result": [],
+          "question": [
+            {
+              "q": "rec",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "cling",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13750",
+          "title": "pol*ution",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "l"
+            }
+          },
+          "stem": [
+            {
+              "value": "l",
+              "istrue": 1
+            },
+            {
+              "value": "r"
+            },
+            {
+              "value": "p"
+            },
+            {
+              "value": "o"
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "t"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "1",
+          "user_result": [],
+          "question": [
+            {
+              "q": "pol",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "ution",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13751",
+          "title": "green e*ergy",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "n"
+            }
+          },
+          "stem": [
+            {
+              "value": "n",
+              "istrue": 1
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "s"
+            },
+            {
+              "value": "d"
+            },
+            {
+              "value": "e"
+            },
+            {
+              "value": "f"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "1",
+          "user_result": [],
+          "question": [
+            {
+              "q": "green e",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "ergy",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13752",
+          "title": "envi*onment",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "r"
+            }
+          },
+          "stem": [
+            {
+              "value": "z"
+            },
+            {
+              "value": "x"
+            },
+            {
+              "value": "c"
+            },
+            {
+              "value": "v"
+            },
+            {
+              "value": "r",
+              "istrue": 1
+            },
+            {
+              "value": "n"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "5",
+          "user_result": [],
+          "question": [
+            {
+              "q": "envi",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "onment",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13753",
+          "title": "pla*tic",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "s"
+            }
+          },
+          "stem": [
+            {
+              "value": "t"
+            },
+            {
+              "value": "y"
+            },
+            {
+              "value": "s",
+              "istrue": 1
+            },
+            {
+              "value": "p"
+            },
+            {
+              "value": "l"
+            },
+            {
+              "value": "o"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "3",
+          "user_result": [],
+          "question": [
+            {
+              "q": "pla",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "tic",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13754",
+          "title": "gla*",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "ss"
+            }
+          },
+          "stem": [
+            {
+              "value": "ss",
+              "istrue": 1
+            },
+            {
+              "value": "g"
+            },
+            {
+              "value": "h"
+            },
+            {
+              "value": "j"
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "s"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "1",
+          "user_result": [],
+          "question": [
+            {
+              "q": "gla",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13755",
+          "title": "w*d",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "oo"
+            }
+          },
+          "stem": [
+            {
+              "value": "u"
+            },
+            {
+              "value": "oo",
+              "istrue": 1
+            },
+            {
+              "value": "o"
+            },
+            {
+              "value": "e"
+            },
+            {
+              "value": "ea"
+            },
+            {
+              "value": "ae"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "2",
+          "user_result": [],
+          "question": [
+            {
+              "q": "w",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "d",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13756",
+          "title": "*etal",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "m"
+            }
+          },
+          "stem": [
+            {
+              "value": "c"
+            },
+            {
+              "value": "v"
+            },
+            {
+              "value": "b"
+            },
+            {
+              "value": "n"
+            },
+            {
+              "value": "m",
+              "istrue": 1
+            },
+            {
+              "value": "h"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "5",
+          "user_result": [],
+          "question": [
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "etal",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 0,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13758",
+          "title": "****** green energy.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "an",
+              "istrue": 1
+            },
+            {
+              "value": "there is",
+              "istrue": 1
+            },
+            {
+              "value": "need",
+              "istrue": 1
+            },
+            {
+              "value": "for ",
+              "istrue": 1
+            },
+            {
+              "value": "cleen ",
+              "istrue": 1
+            },
+            {
+              "value": "urgent",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "216345",
+          "user_result": [],
+          "question": [
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": " green energy.",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 0,
+              "value": -1
+            },
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13759",
+          "title": "Our ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "plates",
+              "istrue": 1
+            },
+            {
+              "value": "picnic",
+              "istrue": 1
+            },
+            {
+              "value": "made",
+              "istrue": 1
+            },
+            {
+              "value": "of ",
+              "istrue": 1
+            },
+            {
+              "value": "plastic",
+              "istrue": 1
+            },
+            {
+              "value": "are",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "216345",
+          "user_result": [],
+          "question": [
+            {
+              "q": "Our ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13760",
+          "title": "We ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "to",
+              "istrue": 1
+            },
+            {
+              "value": "must",
+              "istrue": 1
+            },
+            {
+              "value": "protect",
+              "istrue": 1
+            },
+            {
+              "value": "the",
+              "istrue": 1
+            },
+            {
+              "value": "try",
+              "istrue": 1
+            },
+            {
+              "value": " environment",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "251346",
+          "user_result": [],
+          "question": [
+            {
+              "q": "We ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13761",
+          "title": "Recycling ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "is",
+              "istrue": 1
+            },
+            {
+              "value": "something",
+              "istrue": 1
+            },
+            {
+              "value": "we",
+              "istrue": 1
+            },
+            {
+              "value": "paper",
+              "istrue": 1
+            },
+            {
+              "value": "must",
+              "istrue": 1
+            },
+            {
+              "value": "do",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "412356",
+          "user_result": [],
+          "question": [
+            {
+              "q": "Recycling ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
+        }
+      }
+    ],
+    "question_type": {
+      "1": {
+        "en": "Vocabulary Review",
+        "ch": "\u9884\u89c8"
+      },
+      "2": {
+        "en": "Listen and Choose ",
+        "ch": "\u542c\u5e76\u9009"
+      },
+      "3": {
+        "en": "Read and Choose",
+        "ch": "\u8bfb\u5e76\u9009"
+      },
+      "4": {
+        "en": "True or False ",
+        "ch": "\u5224\u65ad"
+      },
+      "5": {
+        "en": "Spelling",
+        "ch": "\u5355\u8bcd\u62fc\u5199"
+      },
+      "6": {
+        "en": "Complete the sentences",
+        "ch": "\u5b8c\u6210\u53e5\u5b50"
+      },
+      "7": {
+        "en": "Reading Comprehension",
+        "ch": "\u9605\u8bfb\u7406\u89e3"
+      }
+    }
+  }
+}
