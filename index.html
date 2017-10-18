@@ -39,49 +39,77 @@
                         <span class="conTitle2">{{index+1}}/{{ questionList.length }}</span>
                     </template>
                 </div>
-                <!--type4判断对错题目-->
-                <p class="type4-title">{{item.data.title}}</p>
-                <!--判断对错选项-->
-                <p class="judge">
-                    <span>
+                <!--type4-->
+                <template v-if="item.type==4">
+                    <!--判断对错题目-->
+                    <p class="type4-title">{{item.data.title}}</p>
+                    <!--判断对错选项-->
+                    <p class="judge">
+                    <span @click="judgeClick1" :class="{judgeHover:judgeTrue}">
                         <a class="judge-true"></a>
                     </span>
-                    <span>
+                        <span @click="judgeClick2" :class="{judgeHover:judgeFalse}">
                         <a class="judge-false"></a>
                     </span>
-                </p>
-
-
-
-
-
+                    </p>
+                </template>
+                <template v-if="item.type==5 || item.type==6">
+                    <!--单词填空题目-->
+                    <p class="type5-title">Question:
+                        <template v-for="qItem in item.data.question">
+                            <template v-if="qItem.q=='*'">
+                                <span class="vacancy">{{vacancyCon}}</span>
+                            </template>
+                            <template v-else>
+                                <span>{{qItem.q}}</span>
+                            </template>
+                        </template>
+                    </p>
+                    <!--单词填空选项-->
+                    <div class="type5-option-box" v-if="item.type==5">
+                        <template v-for="(option,index) in item.data.stem">
+                            <span class="type5-option" @click="type5Click(index)">{{option.value}}</span>
+                        </template>
+                    </div>
+                    <!--多选选词填空-->
+                    <div class="type5-option-box" v-if="item.type==6">
+                        <template v-for="(option,index) in item.data.stem">
+                            <span class="type5-option type6-option" @click="type6Click(index)">{{option.value}}</span>
+                        </template>
+                    </div>
+                </template>
+                <!--左右点击按钮-->
+                <div class="botBtn">
+                    <span class="prve" @click="prveClick"></span>
+                    <span class="next" @click="nextClick"></span>
+                </div>
             </div>
             <!--结尾尾页-->
-            <!--<div class="ended" :class="{hide:endShow}">-->
-                <!--<p class="correct">Correct: {{finish.trueNum}}</p>-->
-                <!--<p class="wrong">Wrong: {{finish.wrongNum}}</p>-->
-                <!--<div class="star-box">-->
-                    <!--<p v-if="finish.star==1">-->
-                        <!--<span class="star star-true"></span>-->
-                        <!--<span class="star star-false"></span>-->
-                        <!--<span class="star star-false"></span>-->
-                    <!--</p>-->
-                    <!--<p v-if="finish.star==2">-->
-                        <!--<span class="star star-true"></span>-->
-                        <!--<span class="star star-true"></span>-->
-                        <!--<span class="star star-false"></span>-->
-                    <!--</p>-->
-                    <!--<p v-if="finish.star==3">-->
-                        <!--<span class="star star-true"></span>-->
-                        <!--<span class="star star-true"></span>-->
-                        <!--<span class="star star-true"></span>-->
-                    <!--</p>-->
-                <!--</div>-->
-                <!--<p class="btn-box">-->
-                    <!--<span class="btn-end btn-again" @click="btnAgain"></span>-->
-                    <!--<span class="btn-end btn-quit"></span>-->
-                <!--</p>-->
-            <!--</div>-->
+            <div class="ended" :class="{hide:endShow}">
+                <p class="correct">Correct: {{finish.trueNum}}</p>
+                <p class="wrong">Wrong: {{finish.wrongNum}}</p>
+                <div class="star-box">
+                    <p v-if="finish.star==1">
+                        <span class="star star-true"></span>
+                        <span class="star star-false"></span>
+                        <span class="star star-false"></span>
+                    </p>
+                    <p v-if="finish.star==2">
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                        <span class="star star-false"></span>
+                    </p>
+                    <p v-if="finish.star==3">
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                        <span class="star star-true"></span>
+                    </p>
+                </div>
+                <p class="btn-box">
+                    <span class="btn-end btn-again" @click="btnAgain"></span>
+                    <span class="btn-end btn-quit"></span>
+                </p>
+            </div>
         </div>
     </div>
 
