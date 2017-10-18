@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>web课题测验</title>
+    <title>课程复习系统</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
@@ -20,87 +20,72 @@
         <!--中心主体-->
         <div class="concent">
             <!--开始首页-->
-            <div class="question-item" :class="{hide:startShow}">
+            <div :class="{hide:startShow}">
                 <div class="bg-concent-left"></div>
                 <div class="bg-concent-right"></div>
-                <p class="lesson first-title">Lesson57</p>
-                <p class="preview first-title">Preview &nbsp&nbsp&nbsp Practice</p>
+                <p class="lesson first-title">Lesson1</p>
+                <p class="preview first-title">Review&nbsp&nbsp&nbsp Practice</p>
                 <p class="first-btn" @click="starBtn"></p>
             </div>
-            <!--开始做题-->
-            <div class="question-item" v-for="(item, index) in questionList" :class="{hide:contentShow}" v-if="item.data.id==listsId">
+            <!--开始做题,中间做题页-->
+            <div v-for="(item, index) in questionList" :class="{hide:contentShow}"
+                 class="contentId" v-if="index==listsId">
                 <!--试题上方标题与页数-->
-                <p v-for="(qType, index) in question_type" v-if="index==item.type" class="conTitle"  >
-                    <span class="conTitle1">{{qType.en}}</span>
-                    <span class="conTitle2">{{+item.data.id-1856}}/{{ questionList.length }}</span>
-                </p>
-                <!--上方播放按钮-->
-                <div class="playTop" @click="playChage('.playTop','.audioTitle',0)">
-                    <img :src="item.data.title" alt="" class="playTopPic" width="150" height="150">
-                    <!--预习图片标题音频-->
-                    <p v-if="item.data.stem.audio">
-                    <audio :src=item.data.stem.audio class="audioTitle"></audio>
-                </p>
-                    <!--四选项标题音频-->
-                    <p v-if="item.data.title">
-                     <audio :src=item.data.title class="audioTitle"></audio>
-                    </p>
+                <div class="conTitle">
+                    <template v-for="(qType, index) in question_type" v-if="item.type==index">
+                        <span class="conTitle1">{{qType.en}}</span>
+                    </template>
+                    <template>
+                        <span class="conTitle2">{{index+1}}/{{ questionList.length }}</span>
+                    </template>
                 </div>
-                <!--中间图片或选项或文字-->
-                <p v-if="item.data.stem.picture" class="picCon">
-                    <img :src="item.data.stem.picture" alt="">
-                </p>
-                <p v-if="item.data.stem.sentence" class="textCon">{{item.data.stem.sentence}}</p>
-                    <!--听力选项-->
-                <p v-if="!item.data.stem.picture&&item.data.id<1871" class="fourOptionBox">
-                    <span v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
-                        <span class="fourOptionTitle">音频选项{{index}}</span>
-                        <span class="imgBtn" @click="playChage('.imgBtn','.audioContent',index)">
-                             <audio :src=option.value class="audioContent"></audio>
-                        </span>
+                <!--type4判断对错题目-->
+                <p class="type4-title">{{item.data.title}}</p>
+                <!--判断对错选项-->
+                <p class="judge">
+                    <span>
+                        <a class="judge-true"></a>
+                    </span>
+                    <span>
+                        <a class="judge-false"></a>
                     </span>
                 </p>
-                    <!--图片选项-->
-                <p v-if="!item.data.stem.picture&&item.data.id>1870" class="fourOptionBox fourOptionPic">
-                    <span v-for="(option,index) in item.data.stem" class="fourOption" @click="fourOptionClick(index)">
-                        <img :src=option.value alt="" width="130" height="130" class="picContent">
-                    </span>
-                </p>
-                <!--左右按钮-->
-                <div class="botBtn">
-                    <span class="prve" @click="prveClick"></span>
-                    <span class="next" @click="nextClick"></span>
-                </div>
+
+
+
+
+
             </div>
             <!--结尾尾页-->
-            <div  class="ended" :class="{hide:endShow}">
-                <p class="correct">Correct: {{finish.trueNum}}</p>
-                <p class="wrong">Wrong: {{finish.wrongNum}}</p>
-                <div class="star-box">
-                    <p v-if="finish.star==1">
-                        <span class="star star-true"></span>
-                        <span class="star star-false"></span>
-                        <span class="star star-false"></span>
-                    </p>
-                    <p v-if="finish.star==2">
-                        <span class="star star-true"></span>
-                        <span class="star star-true"></span>
-                        <span class="star star-false"></span>
-                    </p>
-                    <p v-if="finish.star==3">
-                        <span class="star star-true"></span>
-                        <span class="star star-true"></span>
-                        <span class="star star-true"></span>
-                    </p>
-                </div>
-                <p class="btn-box">
-                    <span class="btn-end btn-again" @click="btnAgain"></span>
-                    <span class="btn-end btn-quit"></span>
-                </p>
-            </div>
+            <!--<div class="ended" :class="{hide:endShow}">-->
+                <!--<p class="correct">Correct: {{finish.trueNum}}</p>-->
+                <!--<p class="wrong">Wrong: {{finish.wrongNum}}</p>-->
+                <!--<div class="star-box">-->
+                    <!--<p v-if="finish.star==1">-->
+                        <!--<span class="star star-true"></span>-->
+                        <!--<span class="star star-false"></span>-->
+                        <!--<span class="star star-false"></span>-->
+                    <!--</p>-->
+                    <!--<p v-if="finish.star==2">-->
+                        <!--<span class="star star-true"></span>-->
+                        <!--<span class="star star-true"></span>-->
+                        <!--<span class="star star-false"></span>-->
+                    <!--</p>-->
+                    <!--<p v-if="finish.star==3">-->
+                        <!--<span class="star star-true"></span>-->
+                        <!--<span class="star star-true"></span>-->
+                        <!--<span class="star star-true"></span>-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<p class="btn-box">-->
+                    <!--<span class="btn-end btn-again" @click="btnAgain"></span>-->
+                    <!--<span class="btn-end btn-quit"></span>-->
+                <!--</p>-->
+            <!--</div>-->
         </div>
     </div>
 
 </div>
+
 </body>
 </html>

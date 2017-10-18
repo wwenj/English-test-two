@@ -1,10 +1,10 @@
-body{
+html,body{
     width: 100%;
     height: 100%;
     background: #59ba77;
     font-family: "Impact";
     color: #59ba77;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 /*清浮*/
 .clearfix::after {
@@ -54,8 +54,8 @@ body{
 }
 /*内容*/
 .concent{
-    width:780px;
-    /*height:524px;*/
+    width:810px;
+    height:450px;
     background-color: #fffcda;
     border-radius: 8px;
     position: absolute;
@@ -63,13 +63,9 @@ body{
     top:90px;
     margin-left: -410px;
     z-index: 100;
-    padding: 0 20px 70px 20px;
+    padding: 0 20px 0 20px;
 }
-.question-item{
-    width: 100%;
-    height:100%;
-    /*border:1px solid black;*/
-}
+
 .bg-concent-left{
     width:200px;
     height:300px;
@@ -110,11 +106,16 @@ body{
     background: url("../image/spirit.png")-9px -7px;
     cursor: pointer;
 }
+/*中间做题页*/
+.contentId{
+    width:100%;
+    height:100%;
+    border:1px solid black;
+}
 .conTitle{
     width:100%;
-    height:60px;
-    padding:20px 0 20px 5px;
-    box-sizing: border-box;
+    height:20px;
+    padding:20px 0 0 5px;
     font-size: 20px;
 }
 .conTitle1{
@@ -131,44 +132,57 @@ body{
     line-height: 27px;
     text-align: center;
     float: right;
-    margin-right: -20px;
+    margin-right: -14px;
 }
-/*上方开始播放按钮*/
-.playTop{
-    width:85px;
-    height:85px;
-    cursor: pointer;
-    margin:auto;
-    background-image: url(../image/spirit.png);
-    background-position: -326px -15px;
-}
-/*上方title图片*/
-.playTopPic{
-    width:150px;
-    height:150px;
-    /*border:1px solid black;*/
-    margin-left:-32px;
-    background-color: #FFFCDA;
-}
-/*中间图片/选项/文字*/
-.picCon{
-    width:100%;
-    height:152px;
-    /*border:1px solid black;*/
-}
-.picCon img{
-    display: block;
-    margin:20px auto;
-    width:260px;
-    height:140px;
-}
-.textCon{
-    width:100%;
-    height:80px;
-    line-height: 20px;
-    text-align: center;
+.type4-title{
     font-size: 20px;
+    color: #59ba77;
+    text-align: center;
+    margin-top: 20px;
 }
+.judge{
+    width:100%;
+    height:150px;
+    margin-top: 30px;
+    text-align: center;
+    border:1px solid black;
+}
+.judge span{
+    display: inline-block;
+    width:152px;
+    height:152px;
+    border:1px solid black;
+    margin:0 20px;
+    line-height: 152px;
+    cursor: pointer;
+}
+.judge span:hover{
+    border:1px solid black;
+}
+.judge a{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    margin: auto;
+    vertical-align: middle;
+    border:1px solid black;
+    background-image: url("../image/spirit.png");
+    background-position: -516px -4px;
+    /*background-size: 100px 100px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*左右按钮*/
 .botBtn{
     width: 165px;
@@ -196,61 +210,6 @@ body{
     background: url("../image/spirit.png");
     background-position: -239px -97px;
     cursor: pointer;
-}
-/*四选项*/
-.fourOptionBox{
-    width:100%;
-    height:150px;
-    display: flex;
-    /*border:1px solid black;*/
-    display: flex;
-    justify-content:space-around;
-    padding-top: 30px;
-    margin-bottom: 60px;
-}
-.fourOption{
-    display: inline-block;
-    float: left;
-    width:150px;
-    height:140px;
-    padding-top: 20px;
-    border:1px solid rgba(255,255,255,0);
-    line-height: 140px;
-    position: relative;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.fourOption:hover{
-    border:1px solid #59ba77;
-}
-.fourOptionTitle{
-    width:100%;
-    font-size: 15px;
-    height:15px;
-    position: absolute;
-    bottom:127px;
-    left: 0;
-    text-align: center;
-    line-height: 15px;
-}
-.imgBtn{
-    display: inline-block;
-    width:85px;
-    height:85px;
-    vertical-align: middle;
-    margin-left: 32px;
-    background-image: url(../image/spirit.png);
-    background-position: -326px -15px;
-    cursor: pointer;
-}
-/*选项图片*/
-.fourOptionPic{
-    margin-top: 65px;
-    margin-bottom: 70px;
-}
-.picContent{
-    margin-top: -5px;
-    margin-left: 10px;
 }
 /*尾页*/
 .ended{

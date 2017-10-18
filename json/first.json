@@ -3,479 +3,1013 @@
   "result": {
     "lists": [
       {
-        "type": 1,
+        "type": 4,
         "data": {
-          "id": "1857",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.png",
-            "sentence": "doctor",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1858",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.png",
-            "sentence": "teacher",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1859",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.png",
-            "sentence": "astronaut",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1860",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.png",
-            "sentence": "firefighter",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1861",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.png",
-            "sentence": "police officer",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1862",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.png",
-            "sentence": "artist",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 1,
-        "data": {
-          "id": "1863",
-          "title": "\u9884\u89c8\u9898\u578b",
-          "title_type": "0",
-          "config": null,
-          "stem": {
-            "picture": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.png",
-            "sentence": "vet",
-            "audio": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
-          },
-          "stem_type": "0",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1864",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3",
-          "title_type": "3",
+          "id": "13741",
+          "title": "Recycling is when paper and plastic have their own trash cans.",
+          "title_type": "2",
           "config": null,
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3",
+              "value": "True",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
+              "value": "False"
             }
           ],
-          "stem_type": "3",
+          "stem_type": "0",
           "answer": "1",
           "user_result": []
         }
       },
       {
-        "type": 2,
+        "type": 4,
         "data": {
-          "id": "1865",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3",
-          "title_type": "3",
+          "id": "13742",
+          "title": "Pollution is healthy air.",
+          "title_type": "2",
           "config": null,
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3"
+              "value": "True"
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3",
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13743",
+          "title": "The Earth is small.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True"
+            },
+            {
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13744",
+          "title": "Green energy is energy that doesn't cause pollution.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+              "value": "False"
             }
           ],
-          "stem_type": "3",
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13745",
+          "title": "Metal is soft and cheap.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True"
+            },
+            {
+              "value": "False",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "0",
+          "answer": "0",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13746",
+          "title": "Plastic is soft and cheap.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13747",
+          "title": "Wood is made from trees.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 4,
+        "data": {
+          "id": "13748",
+          "title": "Metal is used to make cars.",
+          "title_type": "2",
+          "config": null,
+          "stem": [
+            {
+              "value": "True",
+              "istrue": 1
+            },
+            {
+              "value": "False"
+            }
+          ],
+          "stem_type": "0",
+          "answer": "1",
+          "user_result": []
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13749",
+          "title": "rec*cling",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "y"
+            }
+          },
+          "stem": [
+            {
+              "value": "a"
+            },
+            {
+              "value": "y",
+              "istrue": 1
+            },
+            {
+              "value": "o"
+            },
+            {
+              "value": "i"
+            },
+            {
+              "value": "u"
+            },
+            {
+              "value": "ee"
+            }
+          ],
+          "stem_type": "2",
           "answer": "2",
-          "user_result": []
+          "user_result": [],
+          "question": [
+            {
+              "q": "rec",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "cling",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
         }
       },
       {
-        "type": 2,
+        "type": 5,
         "data": {
-          "id": "1866",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3",
-          "title_type": "3",
-          "config": null,
+          "id": "13750",
+          "title": "pol*ution",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "l"
+            }
+          },
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3",
+              "value": "l",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
+              "value": "r"
+            },
+            {
+              "value": "p"
+            },
+            {
+              "value": "o"
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "t"
             }
           ],
-          "stem_type": "3",
+          "stem_type": "2",
+          "answer": "1",
+          "user_result": [],
+          "question": [
+            {
+              "q": "pol",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "ution",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13751",
+          "title": "green e*ergy",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "n"
+            }
+          },
+          "stem": [
+            {
+              "value": "n",
+              "istrue": 1
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "s"
+            },
+            {
+              "value": "d"
+            },
+            {
+              "value": "e"
+            },
+            {
+              "value": "f"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "1",
+          "user_result": [],
+          "question": [
+            {
+              "q": "green e",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "ergy",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13752",
+          "title": "envi*onment",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "r"
+            }
+          },
+          "stem": [
+            {
+              "value": "z"
+            },
+            {
+              "value": "x"
+            },
+            {
+              "value": "c"
+            },
+            {
+              "value": "v"
+            },
+            {
+              "value": "r",
+              "istrue": 1
+            },
+            {
+              "value": "n"
+            }
+          ],
+          "stem_type": "2",
+          "answer": "5",
+          "user_result": [],
+          "question": [
+            {
+              "q": "envi",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "onment",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 5,
+        "data": {
+          "id": "13753",
+          "title": "pla*tic",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "s"
+            }
+          },
+          "stem": [
+            {
+              "value": "t"
+            },
+            {
+              "value": "y"
+            },
+            {
+              "value": "s",
+              "istrue": 1
+            },
+            {
+              "value": "p"
+            },
+            {
+              "value": "l"
+            },
+            {
+              "value": "o"
+            }
+          ],
+          "stem_type": "2",
           "answer": "3",
-          "user_result": []
+          "user_result": [],
+          "question": [
+            {
+              "q": "pla",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "tic",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
         }
       },
       {
-        "type": 2,
+        "type": 5,
         "data": {
-          "id": "1867",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3",
-          "title_type": "3",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3",
-              "istrue": 1
+          "id": "13754",
+          "title": "gla*",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "ss"
             }
-          ],
-          "stem_type": "3",
-          "answer": "4",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1868",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3",
-          "title_type": "3",
-          "config": null,
+          },
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.mp3",
+              "value": "ss",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
+              "value": "g"
+            },
+            {
+              "value": "h"
+            },
+            {
+              "value": "j"
+            },
+            {
+              "value": "k"
+            },
+            {
+              "value": "s"
             }
           ],
-          "stem_type": "3",
-          "answer": "3",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1869",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3",
-          "title_type": "3",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3",
-              "istrue": 1
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/2.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.mp3"
-            }
-          ],
-          "stem_type": "3",
-          "answer": "2",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1870",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3",
-          "title_type": "3",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.mp3",
-              "istrue": 1
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.mp3"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.mp3"
-            }
-          ],
-          "stem_type": "3",
+          "stem_type": "2",
           "answer": "1",
-          "user_result": []
+          "user_result": [],
+          "question": [
+            {
+              "q": "gla",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
         }
       },
       {
-        "type": 2,
+        "type": 5,
         "data": {
-          "id": "1871",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/1.png",
-          "title_type": "1",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png",
-              "istrue": 1
+          "id": "13755",
+          "title": "w*d",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "oo"
             }
-          ],
-          "stem_type": "1",
-          "answer": "4",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1872",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/3.png",
-          "title_type": "1",
-          "config": null,
+          },
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png"
+              "value": "u"
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/14.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png",
-              "istrue": 1
-            }
-          ],
-          "stem_type": "1",
-          "answer": "4",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1873",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/4.png",
-          "title_type": "1",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png",
+              "value": "oo",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png"
+              "value": "o"
+            },
+            {
+              "value": "e"
+            },
+            {
+              "value": "ea"
+            },
+            {
+              "value": "ae"
             }
           ],
-          "stem_type": "1",
-          "answer": "3",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1874",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/5.png",
-          "title_type": "1",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png",
-              "istrue": 1
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/11.png"
-            }
-          ],
-          "stem_type": "1",
-          "answer": "1",
-          "user_result": []
-        }
-      },
-      {
-        "type": 2,
-        "data": {
-          "id": "1875",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/6.png",
-          "title_type": "1",
-          "config": null,
-          "stem": [
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/12.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/13.png",
-              "istrue": 1
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
-            }
-          ],
-          "stem_type": "1",
+          "stem_type": "2",
           "answer": "2",
-          "user_result": []
+          "user_result": [],
+          "question": [
+            {
+              "q": "w",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "d",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            }
+          ]
         }
       },
       {
-        "type": 2,
+        "type": 5,
         "data": {
-          "id": "1876",
-          "title": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/7.png",
-          "title_type": "1",
-          "config": null,
+          "id": "13756",
+          "title": "*etal",
+          "title_type": "5",
+          "config": {
+            "correct_answer": {
+              "1": "m"
+            }
+          },
           "stem": [
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/9.png"
+              "value": "c"
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/14.png",
+              "value": "v"
+            },
+            {
+              "value": "b"
+            },
+            {
+              "value": "n"
+            },
+            {
+              "value": "m",
               "istrue": 1
             },
             {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/10.png"
-            },
-            {
-              "value": "http:\/\/admin.zhituteam.com\/upload\/question\/level0_lesson57\/8.png"
+              "value": "h"
             }
           ],
-          "stem_type": "1",
-          "answer": "2",
-          "user_result": []
+          "stem_type": "2",
+          "answer": "5",
+          "user_result": [],
+          "question": [
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "etal",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 0,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13758",
+          "title": "****** green energy.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "an",
+              "istrue": 1
+            },
+            {
+              "value": "there is",
+              "istrue": 1
+            },
+            {
+              "value": "need",
+              "istrue": 1
+            },
+            {
+              "value": "for ",
+              "istrue": 1
+            },
+            {
+              "value": "cleen ",
+              "istrue": 1
+            },
+            {
+              "value": "urgent",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "216345",
+          "user_result": [],
+          "question": [
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": " green energy.",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 0,
+              "value": -1
+            },
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13759",
+          "title": "Our ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "plates",
+              "istrue": 1
+            },
+            {
+              "value": "picnic",
+              "istrue": 1
+            },
+            {
+              "value": "made",
+              "istrue": 1
+            },
+            {
+              "value": "of ",
+              "istrue": 1
+            },
+            {
+              "value": "plastic",
+              "istrue": 1
+            },
+            {
+              "value": "are",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "216345",
+          "user_result": [],
+          "question": [
+            {
+              "q": "Our ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13760",
+          "title": "We ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "to",
+              "istrue": 1
+            },
+            {
+              "value": "must",
+              "istrue": 1
+            },
+            {
+              "value": "protect",
+              "istrue": 1
+            },
+            {
+              "value": "the",
+              "istrue": 1
+            },
+            {
+              "value": "try",
+              "istrue": 1
+            },
+            {
+              "value": " environment",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "251346",
+          "user_result": [],
+          "question": [
+            {
+              "q": "We ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "type": 6,
+        "data": {
+          "id": "13761",
+          "title": "Recycling ******.",
+          "title_type": "6",
+          "config": null,
+          "stem": [
+            {
+              "value": "is",
+              "istrue": 1
+            },
+            {
+              "value": "something",
+              "istrue": 1
+            },
+            {
+              "value": "we",
+              "istrue": 1
+            },
+            {
+              "value": "paper",
+              "istrue": 1
+            },
+            {
+              "value": "must",
+              "istrue": 1
+            },
+            {
+              "value": "do",
+              "istrue": 1
+            }
+          ],
+          "stem_type": "2",
+          "answer": "412356",
+          "user_result": [],
+          "question": [
+            {
+              "q": "Recycling ",
+              "is_empty": 0
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": "*",
+              "is_empty": 1
+            },
+            {
+              "q": ".",
+              "is_empty": 0
+            }
+          ],
+          "empty": [
+            {
+              "empty": 1,
+              "value": -1
+            },
+            {
+              "empty": 2,
+              "value": -1
+            },
+            {
+              "empty": 3,
+              "value": -1
+            },
+            {
+              "empty": 4,
+              "value": -1
+            },
+            {
+              "empty": 5,
+              "value": -1
+            },
+            {
+              "empty": 6,
+              "value": -1
+            }
+          ]
         }
       }
     ],
     "question_type": {
       "1": {
-        "en": "Vocabulary Preview",
+        "en": "Vocabulary Review",
         "ch": "\u9884\u89c8"
       },
       "2": {

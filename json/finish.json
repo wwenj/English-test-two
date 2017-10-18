@@ -1,8 +1,8 @@
 {
   "status": true,
   "result": {
-    "star": 2,
-    "trueNum": 10,
-    "wrongNum": 10
+    "star": 1,
+    "trueNum": 3,
+    "wrongNum": 17
   }
 }
