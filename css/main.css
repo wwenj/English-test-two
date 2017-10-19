@@ -4,7 +4,7 @@ html, body {
     background: #59ba77;
     font-family: "Impact";
     color: #59ba77;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 /*清浮*/
@@ -133,7 +133,6 @@ html, body {
 .contentId {
     width: 100%;
     height: 100%;
-    /*border:1px solid black;*/
 }
 
 .conTitle {
@@ -158,7 +157,7 @@ html, body {
     line-height: 27px;
     text-align: center;
     float: right;
-    margin-right: -14px;
+    margin-right: -20px;
 }
 
 .type4-title {
@@ -245,7 +244,7 @@ html, body {
 
 .vacancy {
     /*width: 20px;*/
-    height:20px;
+    height: 20px;
     line-height: 20px;
     vertical-align: middle;
     display: inline-block;
