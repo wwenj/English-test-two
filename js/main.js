@@ -24,8 +24,8 @@ $(function () {
             /*初始数据ajax请求*/
             getQuestionList: function () {
                 $.ajax({
-                    url: "http://test.zhituteam.com/index.php/home/api/getquestion",
-                    // url: "./json/first.json",
+                    // url: "http://test.zhituteam.com/index.php/home/api/getquestion",
+                    url: "./json/first.json",
                     type: "get",
                     dataType: "json",
                     data: {

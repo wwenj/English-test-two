@@ -355,8 +355,28 @@ html, body {
     margin-left: 30px;
 }
 
-
-
+/*便捷跳转*/
+.move{
+    width:80px;
+    height:40px;
+    position: fixed;
+    top:50px;
+    right: 50px;
+    line-height: 40px;
+    /*background: #64CD85;*/
+    color: yellow;
+    font-size: 12px;
+}
+.move input{
+    width:20px;
+    height:20px;
+    border:none;
+    background: #59BA77;
+    border-bottom: 1px solid #FFFCDA;
+    text-align: center;
+    margin:0 5px;
+    color: #CE3137;
+}
 
 
 
