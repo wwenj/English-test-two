@@ -196,8 +196,9 @@ $(function () {
             /*点击下一题对当前答题信息post提交*/
             answerPost: function (id, select, selected) {
                 $.ajax({
-                    url: "http://test.zhituteam.com/index.php/home/api/ajaxHandle",
-                    type: "post",
+                    // url: "http://test.zhituteam.com/index.php/home/api/ajaxHandle",
+                    url: "./json/first.json",
+                    type: "post",//此处应该为post，本地演示改为post
                     dataType: "json",
                     data: {
                         id: id,
@@ -215,8 +216,8 @@ $(function () {
             /*答题结束请求最后结果成绩*/
             finishget: function () {
                 $.ajax({
-                    url: "http://test.zhituteam.com/index.php/home/api/finish",
-                    // url: "./json/finish.json",
+                    // url: "http://test.zhituteam.com/index.php/home/api/finish",
+                    url: "./json/finish.json",
                     type: "get",
                     dataType: "json",
                     data: {
